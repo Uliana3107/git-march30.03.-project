@@ -7,17 +7,19 @@ public class HomeWork_3 {
         int b = 26;
         int c = 14;
 
-
+        greetings();
+        checkSign(a,b,c);
+        selectColor();
+        compareNumbers();
         int initValue = 98;
         int delta = 34;
         boolean increment = false;
         addOrSubtractAndPrint(initValue, delta, increment);
         //6
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите целое число от 1 до 5");
-        int result_2 = scanner.nextInt();
-        printNumberMetod(result_2);
-        // System.out.println(result_2);
+        //  Scanner scanner = new Scanner(System.in);
+        // System.out.println("Введите целое число от 1 до 5");
+        // int result_2 = scanner.nextInt();
+        //  System.out.println(result_2);
 
     }
     //(1) Реализуйте метод greetings(), который при вызове должен отпечатать в столбец 4 слова: Hello, World, from, Java;
@@ -73,16 +75,6 @@ public class HomeWork_3 {
             result = initValue - delta;
             System.out.println(result);
         }
-    }
-
-    public static void printNumberMetod (int result_2) {
-        int number = result_2;
-        if (number=1) {
-            greetings();
-        }
-        //  checkSign(a,b,c);
-        //  selectColor();
-        //  compareNumbers();
     }
 }
 
